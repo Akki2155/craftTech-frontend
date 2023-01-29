@@ -1,0 +1,30 @@
+.main-products-container{
+    margin-top: 0.4rem;
+    width: 100%;  
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+.filter-container{
+    border-top: 4px solid #2dadfc;
+    width: 20%;
+    height: 40rem;
+    margin-left: 1rem;
+    padding-left: 1.6rem;
+    padding-top: 3rem;
+    background-color: #dae4f7;
+}
+
+.products-container{
+    background-color: #dae4f7;
+    width: 75%;
+    height: auto;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+    padding: 2rem;
+}

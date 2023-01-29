@@ -1,0 +1,77 @@
+.product-card-container{
+    color: black;
+    width: 300px;  
+    margin: 1rem;
+    height: auto;
+    background: #fff;
+    border-top: 4px solid #2dadfc;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 10px;
+    transform: scale(1, 1);
+    transition: 0.3s all ease-in-out;
+}
+
+.product-card-container:hover{
+
+    color: #1476b3;
+}
+.product-card-container img {
+    height: 200px;
+  }
+
+.product-card-container:hover{
+    box-shadow: rgba(0, 0, 0, .3) 0px 4px 8px 10px;
+}
+
+.product-card-container > img:hover{
+    transform: translateZ(8px);
+}
+
+.card-button{
+    margin-left: 0.8rem;
+    margin-top: 0.4rem;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+}
+
+.card-body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.8rem;
+}
+
+.card-body h3{
+    width: 100%;
+    margin-top: 0px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    overflow-wrap: break-word;
+}
+
+.card-body  p{
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.card-rating-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8rem;
+    align-items: center;
+}
+
+.card-rating-container span{
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.card-body h4{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
